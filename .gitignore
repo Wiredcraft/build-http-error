@@ -1,15 +1,9 @@
-lib-cov
-*.seed
-*.log
-*.csv
-*.dat
-*.out
-*.pid
-*.gz
+.*
+!.gitignore
+!.npmignore
+!.jshintrc
 
-pids
-logs
-results
+*.orig
 
 npm-debug.log
 node_modules
