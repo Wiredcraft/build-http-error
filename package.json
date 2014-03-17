@@ -30,8 +30,8 @@
     "gulp-jshint": "latest",
     "gulp-mocha": "latest",
     "gulp-util": "latest",
-    "mocha": "latest",
-    "should": "~2.1.1"
+    "jshint-stylish": "latest",
+    "should": "latest"
   },
   "scripts": {}
 }
