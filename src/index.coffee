@@ -2,8 +2,15 @@ http = require('http')
 util = require('util')
 codes = http.STATUS_CODES
 
-# Builder; returns an Error instance.
-module.exports = (status, message) ->
+###*
+ * Build an HTTP error with a status code and / or a message.
+ *
+ * @param  {Number}       status  a status code
+ * @param  {String|Error} message a message or an error
+ *
+ * @return {Error} an Error instance.
+###
+module.exports = httpError = (status, message) ->
     # Status must be a number.
     if typeof status is 'number'
         # Message is optional; default to an HTTP status message.
@@ -20,4 +27,6 @@ module.exports = (status, message) ->
     err.message = util.format('%s %s', status, err.message or codes[status] ? codes[500])
     # Add or override status (also referred as statusCode).
     err.status = err.statusCode = status
+    # Exclude this function call from the stack trace.
+    Error.captureStackTrace(err, httpError)
     return err

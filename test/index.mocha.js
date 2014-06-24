@@ -1,3 +1,5 @@
+// var debug = require('debug')('carcass:test');
+
 var httpError = require('../');
 
 describe('HTTP Error:', function() {

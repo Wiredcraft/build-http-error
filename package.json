@@ -24,6 +24,7 @@
   "homepage": "https://github.com/devo-ps/build-http-error",
   "dependencies": {},
   "devDependencies": {
+    "debug": "latest",
     "gulp": "latest",
     "gulp-coffee": "latest",
     "gulp-coffeelint": "latest",

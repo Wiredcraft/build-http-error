@@ -1,3 +1,5 @@
+process.env.NODE_ENV = 'test';
+process.env.DEBUG = 'carcass:*';
 require('should');
 
 var gulp = require('gulp');
