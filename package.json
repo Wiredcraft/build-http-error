@@ -1,7 +1,7 @@
 {
   "name": "build-http-error",
-  "version": "0.0.1",
-  "description": "(Node.js) Build an HTTP error from a status code and / or a message.",
+  "version": "0.1.0",
+  "description": "(Node.js) Build an HTTP error with a status code and / or a message.",
   "author": {
     "name": "devo.ps",
     "email": "info@devo.ps",
