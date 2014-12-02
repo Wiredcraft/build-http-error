@@ -5,5 +5,9 @@
 
 *.orig
 
-npm-debug.log
 node_modules
+npm-debug.log
+
+/backup
+/test/coverage.*
+/test/debug
