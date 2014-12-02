@@ -3,11 +3,13 @@
   "version": "0.1.0",
   "description": "(Node.js) Build an HTTP error with a status code and / or a message.",
   "author": {
-    "name": "devo.ps",
-    "email": "info@devo.ps",
-    "url": "https://github.com/devo-ps"
+    "name": "Wiredcraft",
+    "email": "info@wiredcraft.com",
+    "url": "http://wiredcraft.com"
   },
-  "contributors": [],
+  "contributors": [
+    "Makara Wang"
+  ],
   "keywords": [
     "http",
     "error",
@@ -16,12 +18,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/devo-ps/build-http-error.git"
+    "url": "https://github.com/Wiredcraft/build-http-error.git"
   },
   "bugs": {
-    "url": "https://github.com/devo-ps/build-http-error/issues"
+    "url": "https://github.com/Wiredcraft/build-http-error/issues"
   },
-  "homepage": "https://github.com/devo-ps/build-http-error",
+  "homepage": "https://github.com/Wiredcraft/build-http-error",
   "dependencies": {},
   "devDependencies": {
     "debug": "latest",
