@@ -1,3 +1,7 @@
+# Deprecated.
+
+### Please use [http-errors](https://www.npmjs.com/package/http-errors).
+
 # Build HTTP Error
 
 (Node.js) Build an HTTP error with a status code and / or a message.
